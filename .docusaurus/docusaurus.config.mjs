@@ -56,11 +56,6 @@ export default {
           "position": "left"
         },
         {
-          "href": "/files/IbrahimAbdel_Khaleq.pdf",
-          "label": "Resume",
-          "position": "left"
-        },
-        {
           "href": "https://github.com/ibrahimabdelkhaleq",
           "label": "GitHub",
           "position": "right"

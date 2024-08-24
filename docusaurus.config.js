@@ -75,11 +75,11 @@ const config = {
           //   label: 'Tutorial',
           // },
           { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: '/files/IbrahimAbdel_Khaleq.pdf',
-            label: 'Resume',
-            position: 'left'
-          },
+          // {
+          //   href: '/files/IbrahimAbdel_Khaleq.pdf',
+          //   label: 'Resume',
+          //   position: 'left'
+          // },
           {
             href: 'https://github.com/ibrahimabdelkhaleq',
             label: 'GitHub',
