@@ -7,8 +7,7 @@ const AboutMeList = [
     title: '💻 Expertise',
     description: (
       <>
-        My expertise lies around GitOps and DevOps practices.
-        I create content about <a href="https://github.com/cilium/cilium">Cilium</a>, <a href="https://github.com/projectsveltos">ProjectSveltos</a>, <a href="https://github.com/gianlucam76/k8s-cleaner">K8s Cleaner</a>, <a href="https://github.com/rancher/rancher">Rancher</a>, <a href="https://docs.rke2.io/">RKE2 deployments</a>, and <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift">Openshift</a> deployments in on-prem and cloud environments.
+        DevOps Lead with a knack for cloud magic, container spells, and CI/CD enchantments. When I'm not casting spells to optimize software delivery, I'm diving deep into the mystical realms of business growth and tech innovation.
       </>
     ),
   },
@@ -16,8 +15,7 @@ const AboutMeList = [
     title: '🚀 Passionate Explorer',
     description: (
       <>
-        I love discovering new things and experimenting in my home lab.
-        My motto, "Break and fix" is all about hands-on learning and embracing every opportunity to grow.
+        driven by a love for discovery and hands-on experimentation in my home lab. My motto, ‘Break and fix,’ reflects my commitment to learning through action and embracing every chance to grow.
       </>
     ),
   },
@@ -25,7 +23,7 @@ const AboutMeList = [
     title: '🤝 Community Contributor',
     description: (
       <>
-        I enjoy creating material and contributing to the community through open-source projects, blog posts, and mentorship.
+        I enjoy creating material and contributing to the community through blog posts, and mentorship.
       </>
     ),
   },

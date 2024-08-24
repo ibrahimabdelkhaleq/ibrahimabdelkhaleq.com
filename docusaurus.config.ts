@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Ibrahim Abdel-Khaleq',
-  tagline: 'I am passionate about breaking and fixing things! Follow me on this journey of deploying DevOps and GitOps approaches on on-prem and Cloud datacenters!',
-  favicon: 'img/favicon.jpeg',
+  tagline: "I’m Ibrahim Abdel- Khaleq, passionate about breaking and fixing things! Join me as I deploy DevOps and Platform Engineering strategies across on-prem and cloud datacenters.Let’s optimize, automate, and solve complex challenges together!",
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://ibrahimabdelkhaleq.com',
@@ -73,6 +73,11 @@ const config: Config = {
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
         {
+          href: '/files/IbrahimAbdel_Khaleq.pdf',
+          label: 'Resume',
+          position: 'left'
+        },
+        {
           href: 'https://github.com/ibrahimabdelkhaleq',
           label: 'GitHub',
           position: 'right',
@@ -113,6 +118,10 @@ const config: Config = {
             {
               label: 'Medium',
               href: 'https://medium.com/@ibrahimabdel-khaleq',
+            },
+            {
+              label: 'Adplist',
+              href: 'https://adplist.org/mentors/ibrahim-mohamed',
             },
           ],
         },

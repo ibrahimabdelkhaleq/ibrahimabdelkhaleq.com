@@ -5,8 +5,8 @@
  */
 export default {
   "title": "Ibrahim Abdel-Khaleq",
-  "tagline": "I am passionate about breaking and fixing things! Follow me on this journey of deploying DevOps and GitOps approaches on on-prem and Cloud datacenters!",
-  "favicon": "img/favicon.jpeg",
+  "tagline": "I’m Ibrahim Abdel- Khaleq, passionate about breaking and fixing things! Join me as I deploy DevOps and Platform Engineering strategies across on-prem and cloud datacenters.Let’s optimize, automate, and solve complex challenges together!",
+  "favicon": "img/favicon.ico",
   "url": "https://ibrahimabdelkhaleq.com",
   "baseUrl": "/",
   "organizationName": "facebook",
@@ -64,6 +64,11 @@ export default {
           "position": "left"
         },
         {
+          "href": "/files/IbrahimAbdel_Khaleq.pdf",
+          "label": "Resume",
+          "position": "left"
+        },
+        {
           "href": "https://github.com/ibrahimabdelkhaleq",
           "label": "GitHub",
           "position": "right"
@@ -97,6 +102,10 @@ export default {
             {
               "label": "Medium",
               "href": "https://medium.com/@ibrahimabdel-khaleq"
+            },
+            {
+              "label": "Adplist",
+              "href": "https://adplist.org/mentors/ibrahim-mohamed"
             }
           ]
         },

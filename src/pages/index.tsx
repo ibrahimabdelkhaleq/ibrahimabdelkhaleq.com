@@ -22,7 +22,9 @@ function HomepageHeader() {
           </div>
         </div>
       </div>
-      <div className="main-image-container">👨‍💻</div>
+      <div className="main-image-container">
+        <img src="img/favicon.ico" alt="Ibrahim Abdel-Khaleq" />
+      </div>
     </header>
   );
 }

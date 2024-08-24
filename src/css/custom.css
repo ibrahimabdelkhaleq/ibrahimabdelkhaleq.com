@@ -184,7 +184,7 @@ code {
     left: 0;
     right: 0;
     bottom: 0;
-    background: -webkit-linear-gradient(#4a4a4c, #272728);
+    background: -webkit-linear-gradient(#4a4a4c, #4a4a4c);
     transform: scaleX(0);
     transform-origin: 0 50%;
     pointer-events: none;
@@ -225,3 +225,4 @@ code {
     transform: scaleX(0);
   }
 }
+
