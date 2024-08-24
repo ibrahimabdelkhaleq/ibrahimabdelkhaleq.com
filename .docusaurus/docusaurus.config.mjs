@@ -7,7 +7,7 @@ export default {
   "title": "Ibrahim Abdel-Khaleq",
   "tagline": "I’m Ibrahim Abdel- Khaleq, passionate about breaking and fixing things! Join me as I deploy DevOps and Platform Engineering strategies across on-prem and cloud datacenters.Let’s optimize, automate, and solve complex challenges together!",
   "favicon": "img/favicon.ico",
-  "url": "https://ibrahimabdelkhaleq.com",
+  "url": "https://github.com",
   "baseUrl": "/",
   "trailingSlash": false,
   "organizationName": "ibrahimabdelkhaleq",
