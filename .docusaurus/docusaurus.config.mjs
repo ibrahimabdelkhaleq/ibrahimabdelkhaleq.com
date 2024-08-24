@@ -95,8 +95,8 @@ export default {
               "href": "https://github.com/ibrahimabdelkhaleq"
             },
             {
-              "label": "Twitter",
-              "href": "https://x.com/ib_moh_elsayed"
+              "label": "Medium",
+              "href": "https://medium.com/@ibrahimabdel-khaleq"
             }
           ]
         },
@@ -110,7 +110,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Ibrahim Abdel-Khaleq"
+      "copyright": "Copyright © 2024 Ibrahim Abdel-Khaleq Blog"
     },
     "prism": {
       "theme": {

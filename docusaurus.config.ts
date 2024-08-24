@@ -111,8 +111,8 @@ const config: Config = {
               href: 'https://github.com/ibrahimabdelkhaleq',
             },
             {
-              label: 'Twitter',
-              href: 'https://x.com/ib_moh_elsayed',
+              label: 'Medium',
+              href: 'https://medium.com/@ibrahimabdel-khaleq',
             },
           ],
         },
@@ -126,7 +126,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ibrahim Abdel-Khaleq`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ibrahim Abdel-Khaleq Blog`,
     },
     prism: {
       theme: prismThemes.github,
