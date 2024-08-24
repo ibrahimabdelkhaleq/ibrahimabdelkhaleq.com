@@ -1,0 +1,36 @@
+"2024":
+  label: "2024"
+  permalink: /2024
+  description: The year the post went online
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+ci/cd:
+  label: CI/CD
+  permalink: /ci-cd
+  description: "Continuous Integration and Continuous Delivery"
+open-source:
+  label: Open Source
+  permalink: /open-source
+  description: Open source software
+kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: Container orchestration platform for automating application deployment, scaling, and management
+devops:
+  label: DevOps
+  permalink: /devops
+  description: Set of practices that combines software development and IT operations
+gitops:
+  label: GitOps
+  permalink: /gitops
+  description: Operational framework that uses Git as a single source of truth for declarative infrastructure and applications
+azure:
+  label: Azure
+  permalink: /azure
+  description: Azure Cloud
+opentofu:
+  label: OpenTofu
+  permalink: /opentofu
+  description: OpenTofu is a fork of Terraform

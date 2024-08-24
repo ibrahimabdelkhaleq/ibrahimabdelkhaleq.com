@@ -1,0 +1,227 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3a3a3c;
+  --ifm-color-primary-dark: #333335;
+  --ifm-color-primary-darker: #2e2e30;
+  --ifm-color-primary-darkest: #272728;
+  --ifm-color-primary-light: #4a4a4c;
+  --ifm-color-primary-lighter: #5c5c5e;
+  --ifm-color-primary-lightest: #6e6e70;
+  --ifm-background-color: #fafafa;
+  --delay: 0;
+  --duration: 800ms;
+  --iterations: 1;
+}
+
+pre {
+  background-color: #e5e5e7;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 4px;
+  overflow: auto;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+  color: #3a3a3c;
+}
+
+/* Dark mode */
+:root[data-theme='dark'] {
+  --ifm-color-primary: #d3d3d4;
+  --ifm-color-primary-dark: #b5b5b6;
+  --ifm-color-primary-darker: #9e9e9f;
+  --ifm-color-primary-darkest: #868687;
+  --ifm-color-primary-light: #dadadb;
+  --ifm-color-primary-lighter: #e0e0e1;
+  --ifm-color-primary-lightest: #ededee;
+  --ifm-background-color: #1c1c1e;
+  --ifm-text-color: #ffffff;
+}
+
+:root[data-theme='dark'] pre {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  border: 1px solid #333;
+}
+
+:root[data-theme='dark'] code {
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__col {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.footer__item {
+  margin-bottom: 1rem;
+}
+
+.footer__links .footer__link-item {
+  margin-right: 20px;
+}
+
+.footer__links .footer__link-item a.footer__link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer__bottom {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer__title {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin-left: 0;
+}
+
+.mixmax {
+  display: grid;
+  grid-template-columns: 540px 350px;
+  text-align: left;
+}
+
+@media screen and (max-width: 996px) {
+  .mixmax {
+    padding: 3rem;
+    display: flex;
+  }
+}
+
+.main-text-container p {
+  font-size: 46px;
+  font-weight: 700;
+  margin: 0
+}
+
+.main-image-container {
+  text-align: center;
+  font-size: 124px;
+}
+
+@media screen and (max-width: 996px) {
+  .main-image-container {
+    display: none;
+  }
+}
+
+.name {
+  background: -webkit-linear-gradient(#4f464e, #505257);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 56px;
+  font-weight: 800;
+  margin: 0;
+  transition: transform .2s;
+}
+
+.tagline {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: rgba(60, 60, 67, 0.78);
+}
+
+:root[data-theme='dark'] .tagline {
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 10rem;
+}
+
+@media screen and (max-width: 996px) {
+  .header {
+    padding: 0;
+  }
+}
+
+.reveal-text,
+.reveal-text::after {
+  animation-delay: var(--animation-delay, 2s);
+  animation-iteration-count: var(--iterations, 1);
+  animation-duration: var(--duration, 800ms);
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text {
+  --animation-delay: var(--delay, 0);
+  --animation-duration: var(--duration, 800ms);
+  --animation-iterations: var(--iterations, 1);
+  position: relative;
+  animation-name: clip-text;
+  color: #FFF;
+  white-space: nowrap;
+  cursor: default;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(#4a4a4c, #272728);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    pointer-events: none;
+    animation-name: text-revealer;
+  }
+
+}
+
+@keyframes clip-text {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+
+@keyframes text-revealer {
+
+  0%,
+  50% {
+    transform-origin: 0 50%;
+  }
+
+  60%,
+  100% {
+    transform-origin: 100% 50%;
+  }
+
+
+  60% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    transform: scaleX(0);
+  }
+}

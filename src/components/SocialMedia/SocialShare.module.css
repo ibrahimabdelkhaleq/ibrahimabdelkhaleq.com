@@ -1,0 +1,11 @@
+.shareText {
+  font-size: 1.0rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #8a3ab9;
+}
+
+.shareButton {
+  margin-right: 5px;
+}
