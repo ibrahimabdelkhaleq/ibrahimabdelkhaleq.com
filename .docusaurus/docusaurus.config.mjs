@@ -9,8 +9,10 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://ibrahimabdelkhaleq.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "trailingSlash": false,
+  "organizationName": "ibrahimabdelkhaleq",
+  "projectName": "ibrahimabdelkhaleq.com",
+  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -25,23 +27,13 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
         "blog": {
           "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
+          "blogTitle": "Ibrahim Abdel-Khaleq Blog",
+          "blogDescription": "Ibrahim Abdel-Khaleq Blog",
+          "postsPerPage": 10,
+          "blogSidebarTitle": "Recent posts",
+          "blogSidebarCount": 6
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -72,6 +64,10 @@ export default {
           "href": "https://github.com/ibrahimabdelkhaleq",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "type": "search",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -83,13 +79,13 @@ export default {
           "title": "About",
           "items": [
             {
-              "label": "About Me",
+              "label": "About me",
               "to": "/"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "Socials",
           "items": [
             {
               "label": "LinkedIn",
@@ -114,7 +110,7 @@ export default {
           "items": [
             {
               "label": "Blog",
-              "to": "/blog"
+              "to": "blog"
             }
           ]
         }
@@ -337,17 +333,23 @@ export default {
         "autoCollapseCategories": false
       }
     },
-    "blog": {
-      "sidebar": {
-        "groupByYear": true
-      }
-    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    [
+      "/Users/ibrahimmohamed/Ibrahim/ibrahimabdelkhaleq.com/node_modules/docusaurus-lunr-search/src/index.js",
+      {
+        "languages": [
+          "en",
+          "de"
+        ]
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "experimental_storage": {
@@ -362,7 +364,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
