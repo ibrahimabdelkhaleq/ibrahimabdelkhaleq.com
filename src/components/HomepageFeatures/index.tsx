@@ -60,7 +60,7 @@ export default function HomepageFeatures() {
         <div className="margin-bottom--lg"></div>
         <div className="row">
           {AboutMeList.map((props, idx) => (
-            <AboutMe key={idx} {...props} />
+            <AboutMe key={idx} Svg={null} center={null} {...props} />
           ))}
         </div>
       </div>
