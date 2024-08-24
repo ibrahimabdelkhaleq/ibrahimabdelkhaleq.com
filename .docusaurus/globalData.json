@@ -1,18 +1,18 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/ibrahimabdelkhaleq.com/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/ibrahimabdelkhaleq.com/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/ibrahimabdelkhaleq.com/docs/intro",
               "sidebar": "defaultSidebar"
             }
           ],
@@ -20,7 +20,7 @@
           "sidebars": {
             "defaultSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/ibrahimabdelkhaleq.com/docs/intro",
                 "label": "intro"
               }
             }
@@ -33,8 +33,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1724505684424.json",
-        "lunrIndex": "lunr-index-1724505684424.json"
+        "searchDoc": "search-doc-1724507096571.json",
+        "lunrIndex": "lunr-index-1724507096571.json"
       }
     }
   }

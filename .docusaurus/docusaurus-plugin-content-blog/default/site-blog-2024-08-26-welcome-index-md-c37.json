@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/welcome",
+  "permalink": "/ibrahimabdelkhaleq.com/blog/welcome",
   "source": "@site/blog/2024-08-26-welcome/index.md",
   "title": "Welcome",
   "description": "🌟 Welcome!",
@@ -8,7 +8,7 @@
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blog/tags/hello",
+      "permalink": "/ibrahimabdelkhaleq.com/blog/tags/hello",
       "description": "Hello tag description"
     }
   ],
