@@ -27,3 +27,4 @@ export default function BlogPostItem({ children, className }) {
     </BlogPostItemContainer>
   );
 }
+
